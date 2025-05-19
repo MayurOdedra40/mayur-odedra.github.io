@@ -1,0 +1,102 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 221 70% 12%;
+    --foreground: 210 40% 98%;
+
+    --card: 221 70% 16%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 221 70% 12%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 171 100% 69%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 221 70% 16%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 171 100% 69%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-navy text-slate-lighter font-sans;
+  }
+
+  ::selection {
+    @apply bg-teal/30 text-slate-lighter;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    @apply bg-navy-dark;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    @apply bg-navy-light rounded-full border-2 border-navy-dark;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-slate/50;
+  }
+  
+  /* Custom classes */
+  .section-heading {
+    @apply text-2xl md:text-3xl font-bold text-white mb-6 flex items-center;
+  }
+  
+  .section-heading::before {
+    content: "";
+    @apply inline-block w-8 h-px bg-teal mr-4;
+  }
+
+  .section-subheading {
+    @apply text-xl md:text-2xl font-semibold text-slate-lighter mb-4;
+  }
+  
+  .nav-link {
+    @apply text-slate hover:text-teal transition-colors duration-300;
+  }
+  
+  .nav-link.active {
+    @apply text-teal;
+  }
+  
+  .btn-primary {
+    @apply px-6 py-3 border border-teal text-teal font-mono font-medium rounded hover:bg-teal/10 transition-all duration-300;
+  }
+}
