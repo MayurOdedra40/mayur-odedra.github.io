@@ -11,7 +11,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="md:col-span-2">
             <p className="text-slate-light mb-4">
-              Hello! I'm John, a web developer and data science enthusiast who enjoys creating things that live on the internet and extracting insights from data. My interest in web development started back in 2012 when I decided to try customizing Tumblr themes — turns out hacking together a custom reblog button taught me a lot about HTML & CSS!
+              Hello! I'm Mayur, I'm a Master's student in Management and Data Science at Leuphana University Lüneburg, with a Bachelor’s in Information Technology and 2 years of web development experience across two companies. Currently, I support two departments at Leuphana as a student assistant while actively exploring diverse career opportunities across tech, research, and innovation.
             </p>
 
             <p className="text-slate-light mb-4">

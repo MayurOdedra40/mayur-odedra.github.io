@@ -17,11 +17,11 @@ export default function Hero() {
           </h1>
 
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-3 animate-fade-in opacity-0" style={{ animationDelay: '200ms' }}>
-            John Doe.
+            Mayur Odedra.
           </h2>
 
           <h3 className="text-3xl md:text-5xl font-bold text-slate mb-6 animate-fade-in opacity-0" style={{ animationDelay: '300ms' }}>
-            I build for web and analyze data.
+            Building interfaces. Breaking down data. Bridging ideas.
           </h3>
 
           <p className="text-slate text-lg mb-8 max-w-lg animate-fade-in opacity-0" style={{ animationDelay: '400ms' }}>
