@@ -35,7 +35,7 @@ export default function Contact() {
             
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Location</h3>
-              <p className="text-slate-light mb-2">San Francisco, CA</p>
+              <p className="text-slate-light mb-2">Lüneburg, Germany</p>
               <p className="text-slate-light">Available for remote work worldwide</p>
             </div>
           </div>
